@@ -5,3 +5,8 @@ public class question_15
     {
         Character ch = 'a'; // is an example of autoboxing
         
+        Integer i = new Integer(-8);//Unboxing where wrapper class is converted into its primitive type
+        int absVal = Math.abs(i);
+        System.out.println("absolute value of " + i + " = " + absVal);
+    }
+}
